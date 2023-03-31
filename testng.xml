@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/IT PARK/IdeaProjects/CQA_Automation">
+        <classes><class name="com.bridgelabz.selenium.test.ActionsFacebookTest">
+            <methods><include name="actionClass_FacebookLoginScreen"/>
+            </methods></class><class name="com.bridgelabz.selenium.test.AutoItFileUpload"><methods><include name="fileUploadAutoIt"/><include name="fileUploadSendKeys"/></methods></class><class name="com.bridgelabz.selenium.test.DatePicker"><methods><include name="enterDateAndTime"/></methods></class><class name="com.bridgelabz.selenium.test.DragAndDrop"><methods><include name="dragAndDrop"/></methods></class><class name="com.bridgelabz.selenium.test.FacebookFileUpload"><methods><include name="fileUploadAutoIt"/></methods></class><class name="com.bridgelabz.selenium.test.FacebookLoginTest"><methods><include name="facebookLogin_Success"/></methods></class><class name="com.bridgelabz.selenium.test.FacebookTest"><methods><include name="facebookWebsite_RedirectedOnToValidScreen"/><include name="facebookWebsite_CreateNewAccount"/><include name="facebookWebsite_RadioButtonTest"/></methods></class><class name="com.bridgelabz.selenium.test.FindFramesJSExecutor"><methods><include name="findingFrames_UsingJSExecutor"/></methods></class></classes></test></suite>
